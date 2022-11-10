@@ -26,9 +26,7 @@ public class SampleService implements ServiceInterface {
     public SampleService(SampleRepository sampleRepository) throws IOException {
         this.sampleRepository = sampleRepository;
 
-        // DB샘플을 텍스트 파일로 만들었습니다.
-        // 패키지에 동봉되어 있습니다.
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("C:\\Workspace\\private-note\\DBSample.txt"));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("C:\\Workspace\\sample\\DBSample.txt"));
 
         String sampleJson = "";
         String temp = "";
