@@ -1,9 +1,9 @@
-package com.privatenotesample.service;
+package com.sample.service;
 
-import com.privatenotesample.dao.RepositoryInterface;
-import com.privatenotesample.dao.SampleRepository;
-import com.privatenotesample.dto.Item;
-import com.privatenotesample.dto.Tag;
+import com.sample.dao.RepositoryInterface;
+import com.sample.dao.SampleRepository;
+import com.sample.dto.Item;
+import com.sample.dto.Tag;
 import lombok.extern.slf4j.Slf4j;
 import org.json.JSONArray;
 import org.json.JSONObject;

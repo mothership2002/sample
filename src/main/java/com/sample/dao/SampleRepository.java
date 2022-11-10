@@ -1,7 +1,7 @@
-package com.privatenotesample.dao;
+package com.sample.dao;
 
-import com.privatenotesample.dto.Item;
-import com.privatenotesample.dto.Tag;
+import com.sample.dto.Item;
+import com.sample.dto.Tag;
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.stereotype.Repository;

@@ -1,7 +1,7 @@
-package com.privatenotesample.dao;
+package com.sample.dao;
 
-import com.privatenotesample.dto.Item;
-import com.privatenotesample.dto.Tag;
+import com.sample.dto.Item;
+import com.sample.dto.Tag;
 
 import java.util.List;
 import java.util.Map;

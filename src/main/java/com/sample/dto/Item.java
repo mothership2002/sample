@@ -1,4 +1,4 @@
-package com.privatenotesample.dto;
+package com.sample.dto;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,11 +1,10 @@
-package com.privatenotesample.service;
+package com.sample.service;
 
-import com.privatenotesample.dto.Item;
-import com.privatenotesample.dto.Tag;
+import com.sample.dto.Item;
+import com.sample.dto.Tag;
 
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Matcher;
 
 public interface ServiceInterface {
 

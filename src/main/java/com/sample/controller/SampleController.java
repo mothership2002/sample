@@ -1,18 +1,14 @@
-package com.privatenotesample.controller;
+package com.sample.controller;
 
-import com.privatenotesample.dto.Item;
-import com.privatenotesample.dto.Tag;
-import com.privatenotesample.service.SampleService;
-import com.privatenotesample.service.ServiceInterface;
+import com.sample.dto.Item;
+import com.sample.dto.Tag;
+import com.sample.service.SampleService;
+import com.sample.service.ServiceInterface;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
